@@ -9,5 +9,9 @@ namespace WebEval.Models
         {
                 
         }
+
+        public System.Data.Entity.DbSet<WebEval.Models.Estudiante> Estudiantes { get; set; }
+
+        public System.Data.Entity.DbSet<WebEval.Models.Nota> Notas { get; set; }
     }
 }
